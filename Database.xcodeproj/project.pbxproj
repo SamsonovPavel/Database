@@ -7,8 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84DAF8B11E5AEDF40023ADBF /* FirstNameTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAF8AF1E5AEDF40023ADBF /* FirstNameTVC.swift */; };
+		84DAF8B21E5AEDF40023ADBF /* FirstNameTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DAF8B01E5AEDF40023ADBF /* FirstNameTVC.xib */; };
+		84DAF8B41E5AEDFB0023ADBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAF8B31E5AEDFB0023ADBF /* ViewController.swift */; };
+		84DAF8B81E5AEFD90023ADBF /* LastNameTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAF8B61E5AEFD90023ADBF /* LastNameTVC.swift */; };
+		84DAF8B91E5AEFD90023ADBF /* LastNameTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DAF8B71E5AEFD90023ADBF /* LastNameTVC.xib */; };
+		84DAF8BC1E5AF04E0023ADBF /* PatronymicTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAF8BA1E5AF04E0023ADBF /* PatronymicTVC.swift */; };
+		84DAF8BD1E5AF04E0023ADBF /* PatronymicTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DAF8BB1E5AF04E0023ADBF /* PatronymicTVC.xib */; };
+		84DAF8C01E5AF1020023ADBF /* BirthdayTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAF8BE1E5AF1020023ADBF /* BirthdayTVC.swift */; };
+		84DAF8C11E5AF1020023ADBF /* BirthdayTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DAF8BF1E5AF1020023ADBF /* BirthdayTVC.xib */; };
+		84DAF8C41E5AF1B50023ADBF /* GenderTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAF8C21E5AF1B50023ADBF /* GenderTVC.swift */; };
+		84DAF8C51E5AF1B50023ADBF /* GenderTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DAF8C31E5AF1B50023ADBF /* GenderTVC.xib */; };
+		84DAF8C71E5AF98A0023ADBF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAF8C61E5AF98A0023ADBF /* Constants.swift */; };
+		84DAF8CD1E5B0BD80023ADBF /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAF8CC1E5B0BD80023ADBF /* EditViewController.swift */; };
+		84DAF8CF1E5B0C1C0023ADBF /* ViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAF8CE1E5B0C1C0023ADBF /* ViewControllerProtocol.swift */; };
 		84EA715D1E58C96900ED63A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA715C1E58C96900ED63A7 /* AppDelegate.swift */; };
-		84EA715F1E58C96900ED63A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA715E1E58C96900ED63A7 /* ViewController.swift */; };
 		84EA71621E58C96900ED63A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EA71601E58C96900ED63A7 /* Main.storyboard */; };
 		84EA71641E58C96900ED63A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EA71631E58C96900ED63A7 /* Assets.xcassets */; };
 		84EA71671E58C96900ED63A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EA71651E58C96900ED63A7 /* LaunchScreen.storyboard */; };
@@ -19,9 +32,22 @@
 		0834F3E75E160664CC9FCAB2 /* Pods-Database.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Database.release.xcconfig"; path = "Pods/Target Support Files/Pods-Database/Pods-Database.release.xcconfig"; sourceTree = "<group>"; };
 		1163FAF6D839FFEE4FC82C66 /* Pods_Database.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Database.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A743A217325EBC0CDA20881 /* Pods-Database.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Database.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Database/Pods-Database.debug.xcconfig"; sourceTree = "<group>"; };
+		84DAF8AF1E5AEDF40023ADBF /* FirstNameTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstNameTVC.swift; path = ViewController/Cell/FirstNameTVC.swift; sourceTree = "<group>"; };
+		84DAF8B01E5AEDF40023ADBF /* FirstNameTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FirstNameTVC.xib; path = ViewController/Cell/FirstNameTVC.xib; sourceTree = "<group>"; };
+		84DAF8B31E5AEDFB0023ADBF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ViewController/ViewController.swift; sourceTree = "<group>"; };
+		84DAF8B61E5AEFD90023ADBF /* LastNameTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LastNameTVC.swift; path = ViewController/Cell/LastNameTVC.swift; sourceTree = "<group>"; };
+		84DAF8B71E5AEFD90023ADBF /* LastNameTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LastNameTVC.xib; path = ViewController/Cell/LastNameTVC.xib; sourceTree = "<group>"; };
+		84DAF8BA1E5AF04E0023ADBF /* PatronymicTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PatronymicTVC.swift; path = ViewController/Cell/PatronymicTVC.swift; sourceTree = "<group>"; };
+		84DAF8BB1E5AF04E0023ADBF /* PatronymicTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PatronymicTVC.xib; path = ViewController/Cell/PatronymicTVC.xib; sourceTree = "<group>"; };
+		84DAF8BE1E5AF1020023ADBF /* BirthdayTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BirthdayTVC.swift; path = ViewController/Cell/BirthdayTVC.swift; sourceTree = "<group>"; };
+		84DAF8BF1E5AF1020023ADBF /* BirthdayTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BirthdayTVC.xib; path = ViewController/Cell/BirthdayTVC.xib; sourceTree = "<group>"; };
+		84DAF8C21E5AF1B50023ADBF /* GenderTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenderTVC.swift; path = ViewController/Cell/GenderTVC.swift; sourceTree = "<group>"; };
+		84DAF8C31E5AF1B50023ADBF /* GenderTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GenderTVC.xib; path = ViewController/Cell/GenderTVC.xib; sourceTree = "<group>"; };
+		84DAF8C61E5AF98A0023ADBF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Common/Constants.swift; sourceTree = "<group>"; };
+		84DAF8CC1E5B0BD80023ADBF /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditViewController.swift; path = EditViewCotroller/EditViewController.swift; sourceTree = "<group>"; };
+		84DAF8CE1E5B0C1C0023ADBF /* ViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerProtocol.swift; path = Common/ViewControllerProtocol.swift; sourceTree = "<group>"; };
 		84EA71591E58C96900ED63A7 /* Database.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Database.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EA715C1E58C96900ED63A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84EA715E1E58C96900ED63A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84EA71611E58C96900ED63A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84EA71631E58C96900ED63A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84EA71661E58C96900ED63A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +83,48 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		84DAF8AA1E5AECF70023ADBF /* ViewCotroller */ = {
+			isa = PBXGroup;
+			children = (
+				84DAF8B31E5AEDFB0023ADBF /* ViewController.swift */,
+			);
+			name = ViewCotroller;
+			sourceTree = "<group>";
+		};
+		84DAF8B51E5AEE0B0023ADBF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84DAF8AF1E5AEDF40023ADBF /* FirstNameTVC.swift */,
+				84DAF8B01E5AEDF40023ADBF /* FirstNameTVC.xib */,
+				84DAF8B61E5AEFD90023ADBF /* LastNameTVC.swift */,
+				84DAF8B71E5AEFD90023ADBF /* LastNameTVC.xib */,
+				84DAF8BA1E5AF04E0023ADBF /* PatronymicTVC.swift */,
+				84DAF8BB1E5AF04E0023ADBF /* PatronymicTVC.xib */,
+				84DAF8BE1E5AF1020023ADBF /* BirthdayTVC.swift */,
+				84DAF8BF1E5AF1020023ADBF /* BirthdayTVC.xib */,
+				84DAF8C21E5AF1B50023ADBF /* GenderTVC.swift */,
+				84DAF8C31E5AF1B50023ADBF /* GenderTVC.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		84DAF8C81E5AF9920023ADBF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				84DAF8C61E5AF98A0023ADBF /* Constants.swift */,
+				84DAF8CE1E5B0C1C0023ADBF /* ViewControllerProtocol.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		84DAF8CB1E5B0B2A0023ADBF /* EditViewCotroller */ = {
+			isa = PBXGroup;
+			children = (
+				84DAF8CC1E5B0BD80023ADBF /* EditViewController.swift */,
+			);
+			name = EditViewCotroller;
+			sourceTree = "<group>";
+		};
 		84EA71501E58C96900ED63A7 = {
 			isa = PBXGroup;
 			children = (
@@ -79,7 +147,10 @@
 			isa = PBXGroup;
 			children = (
 				84EA715C1E58C96900ED63A7 /* AppDelegate.swift */,
-				84EA715E1E58C96900ED63A7 /* ViewController.swift */,
+				84DAF8B51E5AEE0B0023ADBF /* Cell */,
+				84DAF8CB1E5B0B2A0023ADBF /* EditViewCotroller */,
+				84DAF8AA1E5AECF70023ADBF /* ViewCotroller */,
+				84DAF8C81E5AF9920023ADBF /* Common */,
 				84EA71601E58C96900ED63A7 /* Main.storyboard */,
 				84EA71631E58C96900ED63A7 /* Assets.xcassets */,
 				84EA71651E58C96900ED63A7 /* LaunchScreen.storyboard */,
@@ -151,9 +222,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DAF8C51E5AF1B50023ADBF /* GenderTVC.xib in Resources */,
+				84DAF8B91E5AEFD90023ADBF /* LastNameTVC.xib in Resources */,
+				84DAF8BD1E5AF04E0023ADBF /* PatronymicTVC.xib in Resources */,
 				84EA71671E58C96900ED63A7 /* LaunchScreen.storyboard in Resources */,
 				84EA71641E58C96900ED63A7 /* Assets.xcassets in Resources */,
 				84EA71621E58C96900ED63A7 /* Main.storyboard in Resources */,
+				84DAF8C11E5AF1020023ADBF /* BirthdayTVC.xib in Resources */,
+				84DAF8B21E5AEDF40023ADBF /* FirstNameTVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +288,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84EA715F1E58C96900ED63A7 /* ViewController.swift in Sources */,
+				84DAF8B41E5AEDFB0023ADBF /* ViewController.swift in Sources */,
 				84EA715D1E58C96900ED63A7 /* AppDelegate.swift in Sources */,
+				84DAF8C01E5AF1020023ADBF /* BirthdayTVC.swift in Sources */,
+				84DAF8B81E5AEFD90023ADBF /* LastNameTVC.swift in Sources */,
+				84DAF8B11E5AEDF40023ADBF /* FirstNameTVC.swift in Sources */,
+				84DAF8BC1E5AF04E0023ADBF /* PatronymicTVC.swift in Sources */,
+				84DAF8C41E5AF1B50023ADBF /* GenderTVC.swift in Sources */,
+				84DAF8C71E5AF98A0023ADBF /* Constants.swift in Sources */,
+				84DAF8CF1E5B0C1C0023ADBF /* ViewControllerProtocol.swift in Sources */,
+				84DAF8CD1E5B0BD80023ADBF /* EditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
